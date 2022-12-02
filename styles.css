@@ -1,0 +1,142 @@
+
+body{
+    background-image: url("main.jpg");
+    background-size: cover;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+    min-width: 100%;
+    background-color: #6943FF;
+    
+}
+h1{
+    color: #FFFFFF;
+}
+input{
+    text-align: center;
+    border-radius: 5px;
+    max-width: 100%;
+    border: 1px solid black;
+    padding: 6px 0px;
+    font-weight: bold;
+    margin: 0px 5px;
+    color: black;
+    border: 0px;
+    
+
+    
+}
+
+#input-el{
+    max-width:25% ;
+    min-height: auto;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    padding: 10px 10px;
+    background-color: #6943FF;
+
+    font-size: 30px;
+    color: #F4F4F4;
+     
+
+}
+
+button{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 10px 0px;
+    font-weight: bold;
+
+
+
+}
+button:hover{
+    background-color: black;
+    color: #F4F4F4;
+}
+
+
+.container{
+    border: 1px solid #F4F4F4;
+    border-radius: 5px;
+    background-color: black;
+    max-width:40% ;
+    min-height: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    text-align: center;
+    padding: 5px 0px
+    
+    
+}
+
+.main{
+    background-color: #6943FF;
+    max-width:95%;
+    min-height: 10vh;
+    margin: 10px auto;
+
+    border: 1px solid red;
+    border-radius: 5px;
+    margin: 10px auto;
+    
+
+    
+
+}
+
+   
+.conversion{
+    background-color: #FFFFFF;
+    max-width:95%;
+    min-height: 15vh;
+
+    border: 1px solid red;
+    margin: 10px auto;
+    border-radius: 5px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+@media screen and (max-width: 700px) {
+    .container{
+        max-width: 95%;
+        margin-top: 15%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        
+
+    }
+    input{
+        max-width: 100%;
+        margin: 4px;
+        padding: 5px 5px;
+
+
+            
+    }
+    
+   
+  
+    ::-webkit-input-placeholder {
+        text-align: center;
+        min-width: 100%;
+
+    }
+    button{
+        font-size: 10px;
+
+    }
+  
+   
+
+    
+ 
+}
